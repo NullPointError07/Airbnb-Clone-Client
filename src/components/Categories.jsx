@@ -6,6 +6,7 @@ import camping from "../assets/Images/Camping.png";
 import city from "../assets/Images/City.png";
 import villa from "../assets/Images/Villa.png";
 
+// category section
 const Categories = ({ selectedCategory, onSelectCategory }) => {
   const categories = [
     { name: "All", image: all },
