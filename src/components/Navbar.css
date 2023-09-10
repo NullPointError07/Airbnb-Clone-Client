@@ -1,0 +1,99 @@
+/* Modal Container */
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 50;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+
+}
+
+/* Close Button */
+.close-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Location Input */
+#location {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Check-In and Check-Out Inputs */
+#check-in,
+#check-out {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+
+}
+
+
+.search-button {
+    width: 100%;
+    max-width: 10rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+/* Media Queries */
+@media (min-width: 640px) {
+
+    /* Medium Screens */
+    .modal-content {
+        width: 32rem;
+
+    }
+
+    .search-button {
+        width: auto;
+
+    }
+}
+
+
+
+@media (min-width: 1024px) {
+
+    /* Large Screens */
+    .modal-content {
+        width: 40rem;
+
+    }
+
+    .search-button {
+        width: auto;
+
+    }
+}
