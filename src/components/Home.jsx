@@ -5,7 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import ChevronLeftIcon from "../assets/Icons/ChevronLeftIcon";
 import ChevronRightIcon from "../assets/Icons/ChevronRightIcon";
-import Star from "../assets/Icons/star";
+import Star from "../assets/Icons/Star";
 import Categories from "./Categories";
 import Filter from "./Filter";
 
